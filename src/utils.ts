@@ -168,27 +168,27 @@ export const keys = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
 export function newSeed(mode: GameMode) {
 	const now = Date.now();
 	switch (mode) {
-		case GameMode.daily:
+		case GameMode.kaileb:
 			// Adds time zome offset to UTC time, calculates how many days that falls after 1/1/1970
 			// and returns the unix time for the beginning of that day.
 			return Date.UTC(1970, 0, 1 + Math.floor((now - (new Date().getTimezoneOffset() * ms.MINUTE)) / ms.DAY));
-		case GameMode.hourly:
+		//case GameMode.hourly:
 			return now - (now % ms.HOUR);
 		// case GameMode.minutely:
 		// 	return now - (now % ms.MINUTE);
-		case GameMode.infinite:
+		//case GameMode.infinite:
 			return now - (now % ms.SECOND);
 	}
 }
 
 export const modeData: ModeData = {
-	default: GameMode.daily,
+	default: GameMode.kaileb,
 	modes: [
 		{
-			name: "Daily",
+			name: "Kaileb",
 			unit: ms.DAY,
 			start: 1642370400000,	// 17/01/2022 UTC+2
-			seed: newSeed(GameMode.daily),
+			seed: newSeed(GameMode.kaileb),
 			historical: false,
 			streak: true,
 			useTimeZone: true,

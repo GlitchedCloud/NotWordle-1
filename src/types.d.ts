@@ -41,7 +41,7 @@ type Settings = {
 type SettingType = "switch" | "dropdown";
 
 type Word = {
-	daily: string,
+	kaileb: string,
 	infinite: string,
 	getState: (char: string, index: number, mode: GameMode) => LetterState,
 };
