@@ -1,5 +1,8 @@
 const words = {
     "words": [
+        "SNOWBALL"
+    ],
+    "valid": [
         "AARDVARK",
         "AARDWOLF",
         "AASVOGEL",
@@ -24060,7 +24063,7 @@ const words = {
         "SNOUTIER",
         "SNOUTING",
         "SNOUTISH",
-        "SNOWBALL", //THE WORD
+        "SNOWBALL",
         "SNOWBANK",
         "SNOWBELL",
         "SNOWBELT",
