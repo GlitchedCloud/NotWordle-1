@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KailebAylett/wordle.git"
+    "url": "git+https://github.com/KailebAylett/NotWordle.git"
   },
   "keywords": [],
   "author": "KailebAylett",
   "bugs": {
-    "url": "https://github.com/KailebAylett/wordle/issues"
+    "url": "https://github.com/KailebAylett/NotWordle/issues"
   },
-  "homepage": "https://github.com/KailebAylett/wordle#readme",
+  "homepage": "https://github.com/KailebAylett/NotWordle#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",

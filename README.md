@@ -1,12 +1,12 @@
-![Wordle+](https://raw.githubusercontent.com/KailebAylett/wordle/main/public/img/og_1200x630.png)
+![Wordle+](https://raw.githubusercontent.com/KailebAylett/NotWordle/main/public/img/og_1200x630.png)
 <div align="center">
-  <a href="https://KailebAylett.github.io/wordle/" ><img src="https://github.com/KailebAylett/wordle/workflows/Publish/badge.svg?branch=main" alt="Publish workflow"/></a>
-  <img src="https://img.shields.io/github/package-json/v/KailebAylett/wordle" alt="GitHub package.json version" />
+  <a href="https://KailebAylett.github.io/NotWordle/" ><img src="https://github.com/KailebAylett/NotWordle/workflows/Publish/badge.svg?branch=main" alt="Publish workflow"/></a>
+  <img src="https://img.shields.io/github/package-json/v/KailebAylett/NotWordle" alt="GitHub package.json version" />
 </div>
 
 ---
 A recreation of the popular game [Wordle](https://www.nytimes.com/games/wordle/) by Josh Wardle (now purchased by the New York Times), with additional modes and features.
-Hosted on GitHub pages [here](https://KailebAylett.github.io/wordle/).
+Hosted on GitHub pages [here](https://KailebAylett.github.io/NotWordle/).
 
 ## Additional Features
 - Words are chosen from the list of words at random instead of in sequence, and the solution is not stored in localStorage, making it harder to cheat. The seed for the random number is created from the date, ensuring that everyone gets the same random number, so people can still compare answers.

@@ -16,41 +16,49 @@
 	<div><strong>Examples</strong></div>
 	<div class="row">
 		<Tile value="w" state="🟩" />
-		<Tile value="e" state="🔳" />
 		<Tile value="a" state="🔳" />
+		<Tile value="g" state="🔳" />
+		<Tile value="e" state="🔳" />
 		<Tile value="r" state="🔳" />
-		<Tile value="y" state="🔳" />
+		<Tile value="i" state="🔳" />
+		<Tile value="n" state="🔳" />
+		<Tile value="g" state="🔳" />
 	</div>
 	<div>The letter <strong>W</strong> is in the word and in the correct spot.</div>
 	<div class="row">
 		<Tile value="p" state="🔳" />
-		<Tile value="i" state="🟨" />
-		<Tile value="l" state="🔳" />
-		<Tile value="l" state="🔳" />
-		<Tile value="s" state="🔳" />
+		<Tile value="a" state="🟨" />
+		<Tile value="c" state="🔳" />
+		<Tile value="k" state="🔳" />
+		<Tile value="a" state="🔳" />
+		<Tile value="g" state="🔳" />
+		<Tile value="e" state="🔳" />
+		<Tile value="r" state="🔳" />
 	</div>
-	<div>The letter <strong>I</strong> is in the word but in the wrong spot.</div>
+	<div>The letter <strong>A</strong> is in the word but in the wrong spot.</div>
 	<div class="row">
 		<Tile value="v" state="🔳" />
 		<Tile value="a" state="🔳" />
-		<Tile value="g" state="🔳" />
-		<Tile value="u" state="⬛" />
-		<Tile value="e" state="🔳" />
+		<Tile value="c" state="⬛" />
+		<Tile value="a" state="🔳" />
+		<Tile value="t" state="🔳" />
+		<Tile value="i" state="🔳" />
+		<Tile value="o" state="🔳" />
+		<Tile value="n" state="🔳" />
 	</div>
-	<div>The letter <strong>U</strong> is not in the word in any spot.</div>
+	<div>The letter <strong>C</strong> is not in the word in any spot.</div>
 </div>
 <div>
-	This is a recreation of the original <a
+	This is a fork of a recreation of the original <a
 		href="https://www.nytimes.com/games/wordle/"
 		target="_blank">Wordle</a
 	>
-	by Josh Wardle with additional modes and features, allowing you to play infinite wordles. Switch
-	to infinite mode to play an unlimited number of times.
+	by Josh Wardle with additional features, for Kaileb's Exhibition. Enjoy!
 	<br /><br />
 	Open the settings menu to see some of the additional features.
 	<br />
 	Written with Svelte, in Typescript by
-	<a href="https://github.com/KailebAylett" target="_blank">KailebAylett</a>.
+	<a href="https://github.com/KailebAylett" target="_blank">Kaileb Aylett</a>.
 </div>
 
 <style lang="scss">
