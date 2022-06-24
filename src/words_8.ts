@@ -2357,8 +2357,8 @@ const words = {
         "BERSERKS",
         "BERTHING",
         "BERYLINE",
-        BESCORCH
-        BESCOURS
+        "BESCORCH",
+        "BESCOURS",
         "BESCREEN",
         "BESEEMED",
         "BESETTER",
@@ -7938,7 +7938,7 @@ const words = {
         "DUSTBINS",
         "DUSTHEAP",
         "DUSTIEST",
-        DUSTLESS
+        "DUSTLESS",
         "DUSTINGS",
         "DUSTLIKE",
         "DUSTOFFS",
@@ -9011,7 +9011,7 @@ const words = {
         "EXERTING",
         "EXERTION",
         "EXERTIVE",
-        EXHALANT
+        "EXHALANT",
         "EXHALENT",
         "EXHALING",
         "EXHAUSTS",
@@ -14124,7 +14124,7 @@ const words = {
         "LATCHING",
         "LATCHKEY",
         "LATEENER",
-        LATENESS
+        "LATENESS",
         "LATENING",
         "LATENTLY",
         "LATERALS",
@@ -15044,7 +15044,7 @@ const words = {
         "MANILLAS",
         "MANILLES",
         "MANIOCAS",
-        MANIPLES
+        "MANIPLES",
         "MANITOUS",
         "MANLIEST",
         "MANNERED",
@@ -16033,7 +16033,7 @@ const words = {
         "MONOPODS",
         "MONOPODY",
         "MONOPOLE",
-        MONOPOLY
+        "MONOPOLY",
         "MONORAIL",
         "MONOSOME",
         "MONOSOMY",
@@ -17084,7 +17084,7 @@ const words = {
         "ODORIZED",
         "ODORIZES",
         "ODORLESS",
-        ODOURFUL
+        "ODOURFUL",
         "ODYSSEYS",
         "OECOLOGY",
         "OEDEMATA",
@@ -18053,8 +18053,8 @@ const words = {
         "PALETTES",
         "PALEWAYS",
         "PALEWISE",
-        PALFREYS
-        PALIKARS
+        "PALFREYS",
+        "PALIKARS",
         "PALIMONY",
         "PALINODE",
         "PALISADE",
@@ -21132,7 +21132,7 @@ const words = {
         "REINLESS",
         "REINSERT",
         "REINSMAN",
-        REINSMEN
+        "REINSMEN",
         "REINSURE",
         "REINTERS",
         "REINVADE",
@@ -25006,8 +25006,8 @@ const words = {
         "STOOPERS",
         "STOOPING",
         "STOPBANK",
-        STOPGAPS
-        STOPOFFS
+        "STOPGAPS",
+        "STOPOFFS",
         "STOPOVER",
         "STOPPAGE",
         "STOPPERS",
@@ -25988,7 +25988,7 @@ const words = {
         "TANTALIC",
         "TANTALUM",
         "TANTALUS",
-        TANTARAS
+        "TANTARAS",
         "TANTRISM",
         "TANTRUMS",
         "TANYARDS",
@@ -27025,7 +27025,7 @@ const words = {
         "TRIGONAL",
         "TRIGRAMS",
         "TRIGRAPH",
-        TRIHEDRA
+        "TRIHEDRA",
         "TRILBIES",
         "TRILITHS",
         "TRILLERS",
@@ -28669,7 +28669,7 @@ const words = {
         "VIRILIZE",
         "VIROLOGY",
         "VIRTUOSA",
-        VIRTUOSE
+        "VIRTUOSE",
         "VIRTUOSI",
         "VIRTUOSO",
         "VIRTUOUS",
