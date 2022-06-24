@@ -3,7 +3,7 @@ import { GameMode, ms } from "./enums";
 import wordList from "./words_8";
 
 export const ROWS = 6;
-export const COLS = 5;
+export const COLS = 8;
 
 export const words = {
 	...wordList,
@@ -137,7 +137,7 @@ function countOccurences<T>(arr: T[], val: T) {
 
 export function getState(word: string, guess: string): LetterState[] {
 	const charArr = word.split("");
-	const result = Array<LetterState>(5).fill("⬛");
+	const result = Array<LetterState>(8).fill("⬛");
 	for (let i = 0; i < word.length; ++i) {
 		if (charArr[i] === guess.charAt(i)) {
 			result[i] = "🟩";
@@ -188,7 +188,7 @@ export const modeData: ModeData = {
 			name: "Kaileb",
 			unit: ms.DAY,
 			start: 1642370400000,	// 17/01/2022 UTC+2
-			seed: 12, //newSeed(GameMode.kaileb),
+			seed: newSeed(GameMode.kaileb),
 			historical: false,
 			streak: true,
 			useTimeZone: true,
