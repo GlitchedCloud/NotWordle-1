@@ -65,7 +65,7 @@
 	</div>
 	{#if tutorial}
 		<div transition:scale class="tutorial" on:click={() => dispatch("closeTutPopUp")}>
-			Tap WORDLE+ to change game mode
+			Created by Kaileb Aylett
 			<span class="ok">OK</span>
 		</div>
 	{/if}
